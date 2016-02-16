@@ -1,0 +1,52 @@
+/**
+ * @file
+ * Rush Layout
+ */
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+#wrapper {
+	min-height: 100%;
+	position: relative;
+}
+
+header {
+	padding: 10px;
+	width: 100%;
+}
+
+footer {
+	width: 100%;
+	height: 100px;
+	text-align: center;
+}
+
+#container {
+	padding-bottom: 100px;
+	width: 1000px;
+	margin: 0px auto;
+	/* Needs to be equal or greater than the height of the footer */
+}
+
+#content, #sidebar-left, #sidebar-right {
+  float: left;
+  display: inline;
+  position: relative;
+}
+
+#sidebar-left {
+	width: 225px;
+}
+
+#content {
+	width: 550px;
+}
+
+#sidebar-right {
+	width: 225px;
+}
